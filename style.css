@@ -15,10 +15,10 @@ button:hover{
 	align-items:center;
 }
 
-#containereditor{
-	max-width:800px;
+#cEditor{
+	max-width:1000px;
 	margin:20px auto;
-	height:200px;
+	height:500px;
 	border:1px SOLID #000000;
     padding: 10px;
 }

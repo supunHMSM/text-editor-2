@@ -6,6 +6,6 @@ function Underline(){
     document.execCommand('Underline',true,null)
  }
 
- function italic(){
+function italic(){
     document.execCommand('italic',true,null)
 }

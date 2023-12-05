@@ -30,3 +30,40 @@ function changeFontColor() {
     const selectedColor = colorPicker.value;
     document.execCommand('foreColor', true, selectedColor);
 }
+
+//Text-Align
+function left(){
+    document.querySelectorAll('.left').forEach(function(element){
+element.addEventListener('click',function(){
+    document.getElementById('cEditor').style.textAlign='left'
+})
+
+    })
+}
+
+function center(){
+    document.querySelectorAll('.center').forEach(function(element){
+element.addEventListener('click',function(){
+    document.getElementById('cEditor').style.textAlign='center'
+})
+
+    })
+}
+
+function right(){
+    document.querySelectorAll('.right').forEach(function(element){
+element.addEventListener('click',function(){
+    document.getElementById('cEditor').style.textAlign='right'
+})
+
+    })
+}
+
+function justify(){
+    document.querySelectorAll('.justify').forEach(function(element){
+element.addEventListener('click',function(){
+    document.getElementById('cEditor').style.textAlign='justify'
+})
+
+    })
+}
